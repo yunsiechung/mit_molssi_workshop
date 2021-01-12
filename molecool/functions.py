@@ -4,11 +4,11 @@ A python package for analyzing and visualizing molecular files. For MolSSI MIT W
 
 Handles the primary functions
 """
-import os
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
 
 
 def calculate_distance(rA, rB):
