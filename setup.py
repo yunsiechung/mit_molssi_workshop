@@ -21,7 +21,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='molecool',
+    name='molecool-yc', # must be unique among all python packages
     author='Yunsie Chung',
     author_email='yunsie@mit.edu',
     description=short_description[0],
